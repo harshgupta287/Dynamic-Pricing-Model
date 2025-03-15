@@ -30,3 +30,10 @@ This Streamlit-based web application predicts ride fares using a dynamic pricing
 3. Run the application:
    ```bash
    streamlit run app.py
+
+##  Usage
+- **Adjust demand & supply sliders.
+- **Select vehicle type and expected ride duration.
+- **View the predicted ride cost.
+- **Explore actual vs. predicted fare comparison.
+- **Check dataset insights.
