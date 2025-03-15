@@ -1,15 +1,32 @@
+# Dynamic Pricing Model for Ride Fare Prediction
 
-Dynamic Ride Pricing App
+This Streamlit-based web application predicts ride fares using a dynamic pricing model based on demand, supply, and ride-specific factors. It incorporates a machine learning model to estimate pricing dynamically.
 
-This is a Streamlit web application designed to implement a dynamic pricing model for ride-sharing platforms. Users can enter different parameters, and the app will predict the ride fare using a trained Random Forest Regressor model. The application also features visualizations that compare the predicted prices with the actual fares, offering insights into the model's accuracy.
+## Features
 
--Predict ride prices based on user inputs such as the number of riders, number of drivers, vehicle type, and expected ride duration.
+- **Dynamic Pricing Calculation**: Adjusts ride fare based on real-time demand and supply.
+- **Machine Learning Model**: Trains a predictive model for fare estimation.
+- **Interactive UI**: Allows users to input ride details and get fare predictions.
+- **Data Visualization**: Displays actual vs. predicted values with an interactive scatter plot.
+- **Dataset Overview**: Presents the processed dataset in an interactive table.
 
--Visualize predicted ride prices vs. actual values using interactive Plotly graphs.
+## Technologies Used
 
--Analyze the distribution of profitable and loss-making rides for valuable insights.
+- **Python**
+- **Streamlit**
+- **Pandas & NumPy**
+- **Plotly**
+- **Scikit-learn**
 
--Handle missing data through effective preprocessing techniques.
+## Installation
 
--Use a Random Forest Regressor model to generate accurate price predictions.
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/dynamic-pricing-model.git
+   cd dynamic-pricing-model
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Run the application:
+   ```bash
+   streamlit run app.py
